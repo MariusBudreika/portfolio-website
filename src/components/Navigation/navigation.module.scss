@@ -1,0 +1,18 @@
+@import '../../styles/base/base';
+
+.container {
+  display: inline-block;
+}
+
+.list {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin-left: 3rem;
+}
+
+.project {
+  color: $color-cinnabar;
+}
