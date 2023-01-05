@@ -1,0 +1,17 @@
+$margin-bottom-skills: 2rem;
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &Title {
+    margin-bottom: $margin-bottom-skills;
+  }
+
+  &Paragraph {
+    margin-bottom: $margin-bottom-skills;
+  }
+  &Icons {
+  }
+}
