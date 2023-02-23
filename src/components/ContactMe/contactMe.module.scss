@@ -1,0 +1,9 @@
+@import '../../styles/base/base';
+
+.contact {
+  display: flex;
+  justify-content: center;
+  &Title {
+    color: $color-cinnabar;
+  }
+}
