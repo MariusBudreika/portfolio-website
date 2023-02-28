@@ -14,6 +14,7 @@ const About: React.FC = () => {
           praesentium minima distinctio suscipit non quasi modi quos tempore
           voluptatum error rerum tenetur facere quae dignissimos vitae, even
         </p>
+        <button className={styles.aboutBtn}>Hire me</button>
       </div>
       <div>
         <img src={myPhoto} alt="logo" className={styles.aboutPhoto} />

@@ -1,3 +1,5 @@
+@import '../../styles/base/base';
+
 .about {
   display: flex;
   justify-content: space-around;
@@ -9,6 +11,25 @@
   }
   &Text {
     max-width: 550px;
+  }
+  &Btn {
+    margin-top: 1rem;
+    padding: 0.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: $color-cinnabar;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: box-shadow ease 0.5s;
+  }
+  &Btn:hover {
+    background-color: #e13636;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+  &Btn:active {
+    background-color: #e61a1a;
   }
   &Photo {
     max-width: 300px;

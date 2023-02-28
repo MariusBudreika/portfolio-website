@@ -1,9 +1,19 @@
 @import '../../styles/base/base';
 
 .contact {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 2rem;
   &Title {
+    display: flex;
+    justify-content: center;
     color: $color-cinnabar;
+    margin-bottom: 2rem;
+  }
+  &Bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &Img {
+    width: 40%;
   }
 }
