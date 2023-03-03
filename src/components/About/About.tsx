@@ -4,7 +4,7 @@ import myPhoto from '../../assets/images/myPhoto.jpg';
 
 const About: React.FC = () => {
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <div className={styles.aboutText}>
         <h3 className={styles.aboutGreeting}>
           Hello, my name is Marius Budreika!

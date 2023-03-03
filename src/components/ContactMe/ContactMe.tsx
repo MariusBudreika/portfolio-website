@@ -5,7 +5,7 @@ import ContactForm from 'components/ContactForm/ContactForm';
 
 const ContactMe: React.FC = () => {
   return (
-    <section className={styles.contact}>
+    <section id="contactMe" className={styles.contact}>
       <h3 className={styles.contactTitle}>Contact Me</h3>
       <div className={styles.contactBottom}>
         <img src={chats} alt="" className={styles.contactImg} />

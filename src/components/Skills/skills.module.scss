@@ -1,3 +1,4 @@
+@import '../../styles/base/base';
 $margin-bottom-skills: 2rem;
 
 .skills {
@@ -8,11 +9,11 @@ $margin-bottom-skills: 2rem;
 
   &Title {
     margin-bottom: $margin-bottom-skills;
+    color: $color-cinnabar;
+    font-weight: $font-weight-titles;
   }
 
   &Paragraph {
     margin-bottom: $margin-bottom-skills;
-  }
-  &Icons {
   }
 }

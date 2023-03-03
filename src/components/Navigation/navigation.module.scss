@@ -4,13 +4,12 @@
   display: inline-block;
 }
 
-.list {
-  list-style: none;
-}
-
-ul li {
+.navigation button {
   display: inline;
   margin-left: 3rem;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 .project {

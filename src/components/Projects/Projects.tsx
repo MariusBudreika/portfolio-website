@@ -3,8 +3,8 @@ import styles from './projects.module.scss';
 
 const Projects: React.FC = () => {
   return (
-    <section className={styles.projects}>
-      <h3>Projects</h3>
+    <section id="projects" className={styles.projects}>
+      <h3 className={styles.projectsTitle}>Projects</h3>
     </section>
   );
 };

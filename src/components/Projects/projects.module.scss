@@ -1,6 +1,13 @@
+@import '../../styles/base/base';
+
 .projects {
   display: flex;
   justify-content: center;
   background-color: #def9ff;
   margin-bottom: 50px;
+
+  &Title {
+    color: $color-cinnabar;
+    font-weight: $font-weight-titles;
+  }
 }
