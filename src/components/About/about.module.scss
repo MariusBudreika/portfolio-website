@@ -1,10 +1,20 @@
 @import '../../styles/base/base';
 
+@mixin svg-basics {
+  width: 2rem;
+  position: absolute;
+  z-index: 1;
+}
+
 .about {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
   margin-bottom: 100px;
+
+  &Me {
+    line-height: 1.2rem;
+  }
 
   &Greeting {
     margin-bottom: 2rem;
@@ -31,9 +41,42 @@
   &Btn:active {
     background-color: #e61a1a;
   }
-  &Photo {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 8px;
+
+  .photoContainer {
+    position: relative;
+
+    .aboutPhoto {
+      max-width: 300px;
+      max-height: 300px;
+      border-radius: 8px;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .aboutZigzag {
+      @include svg-basics();
+      top: 0;
+      left: 0;
+    }
+    .aboutPlus {
+      @include svg-basics();
+      top: -2rem;
+      left: 6rem;
+    }
+    .aboutEllipse {
+      @include svg-basics();
+      left: 0;
+    }
+    .aboutCube {
+      @include svg-basics();
+      top: -2rem;
+      right: 1rem;
+    }
+    .aboutCircles {
+      z-index: 1;
+      position: absolute;
+      width: 5rem;
+      right: 1.5rem;
+      top: 13.1rem;
+    }
   }
 }
