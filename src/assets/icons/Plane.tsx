@@ -5,7 +5,7 @@ export const Plane: React.FC = () => {
     <svg
       width="20px"
       height="20px"
-      fill="#000000"
+      fill="#fff"
       version="1.1"
       viewBox="0 0 512 512"
       xmlSpace="preserve"

@@ -1,4 +1,44 @@
+@mixin input-styles {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  width: 30rem;
+}
+
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
+  &Email {
+    @include input-styles();
+  }
+  &Text {
+    @include input-styles();
+
+    height: 5rem;
+  }
+  &Btn {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    margin-bottom: 5rem;
+    background-color: #4f47c8;
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: box-shadow ease 0.5s;
+  }
+  &Btn:hover {
+    background-color: #615ac7;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+  &Btn:active {
+    background-color: #4d44c3;
+  }
 }
