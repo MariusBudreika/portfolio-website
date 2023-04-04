@@ -19,25 +19,23 @@
     bottom: 5rem;
   }
 
+  &Socialtext {
+    margin-bottom: 0.3rem;
+  }
+
   &GithubLink {
+    margin-top: 0.3rem;
     text-decoration: none;
     color: rgb(254, 189, 254);
   }
 
-  &Git {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 1rem;
-    margin-top: 1rem;
+  &Email {
+    display: inline-flex;
+    background-color: white;
   }
 
-  &Contacts {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
+  &SocialGit {
     margin-right: 1rem;
-    margin-top: 1rem;
   }
 }
 

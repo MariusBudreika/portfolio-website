@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
       <img src={wave} alt="wave" className={styles.footerWave} />
       <div className={styles.footerInfo}>
         <div>
-          <p>My social media links:</p>
+          <p className={styles.footerSocialtext}>My social media links:</p>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/marius-b-618a55220/"
-            className={styles.footerContacts}
+            className={styles.footerSocialGit}
             rel="noreferrer"
           >
             <LinkedinSVG />
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <a
             target="_blank"
             href="https://github.com/MariusBudreika"
-            className={styles.footerContacts}
+            className={styles.footerEmail}
             rel="noreferrer"
           >
             <EmailSVG />
